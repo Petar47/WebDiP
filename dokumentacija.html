@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dokumentacija</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/pmartinov.css"/>
+    </head>
+    <body>
+        <p><a href="./index.php">Početna</a></p>
+        <p>Promocija proizvoda
+            Kratak opis projekta:
+            Sustav služi za upravljanje marketinškom kampanjom proizvoda.</p>
+        <p>ERA</p>
+        <img src="multimedija/pmartinov-ERA.png" alt="ERA"/>
+        <p>Navigacijski</p>
+        <p>Neregistrirani</p>
+        <img src="multimedija/navigacijski_neregistrirani.png" alt="neregistrirani"/>
+        <p>Registrirani</p>
+        <img src="multimedija/navigacijski_registrirani.png" alt="registrirani"/>
+        <p>Moderator</p>
+        <img src="multimedija/navigacijski_moderator.png" alt="moderator"/>
+        <p>Administrator</p>
+        <img src="multimedija/navigacijski_administrator.png" alt="administrator"/>
+        <p>U početnom folderu imamo index.php odnosno početnu stranicu i stranicu o autoru.<br> 
+            Zatim imamo folder admin gdje se nalaze adminove postavke, 
+            stranica admin.php sadrži postavke admina koje može promjeniti i statistiku dnevnika (preko tipDnevnika.php dohvaćamo podatke za graf).<br> 
+            Datoteke ukljuciVirtualno.php i iskljuciVirtualno.php sadrže kod koji dohvaća pomak virtualnog vremena.<br> 
+            Datoteka proizvodstatistika.php služi za unos (preko noviProizvod.php) i uređivanje (preko urediProizvod.php) proizvoda.<br><br> 
+            Folder autentifikacija sadrži registracija.php što služi za registraciju i prijavu korisnika, ali funkcije prijave i registracije sam stavio pod privatno/baza.class.php.<br> 
+            Datoteka provjera_korisnickog_imena služi za provjeru korisničkog imena preko AJAX-a.<br> <br> 
+            Folder css ima datoteku pmartinov.css za uređivanje stranice.<br> <br> 
+            Folder javascript ima pmartinov.js gdje sam radio provjeru na strani poslužitelja.<br> <br> 
+            Folder korisnik ima profil.php koji sadrži podatke o korisniku. Datoteka proizvodi.php služi za pregled kampanja i kupovinu proizvoda.<br> <br> 
+            Folder moderator ima stranicu statistika.php gdje imamo statistiku kupljeni proizvoda po kampanji i grafički prikaz preko javascripta uz pomoć phpStatistika.php gdje dohvaćamo podatke iz baze.<br> 
+            Datoteka kampanja.php služi za pregled svoje kampanje i dodavanje novih proizvoda u kampanju, dodavanje nove kampanje i uređivanje postojeći proizvoda.<br> <br> 
+            Folder multimedija služi za pohranu slika.<br> <br> 
+            Pod ostalo imamo popis.php gdje imamo popis kampanja i korisnika s mogućnosti sortiranja.<br> <br> 
+            Folder privatno sadrži potrebne php datoteke.<br> <br> 
+            Tehnologije koje sam koristio su: XAMPP, Apache, Putty, FileZilla.
+        </p>  
+    </body>
+</html>
