@@ -1,0 +1,144 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+body {
+    background:#ccccff;
+    color:#000000;
+    font-family: "Arial";
+}
+.pretrazivanje{
+    text-align: right;
+}
+h1, footer {
+    text-align: center;
+}
+.navigacija ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigacija li {
+    float: left;
+}
+.navigacija li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+.navigacija li a:hover {
+    background-color: black;
+}
+.active {
+    background-color:black;
+}
+.oznake img{
+    width: 40px;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+    margin: auto;
+}
+img {
+    max-width: 600px;
+    max-height: 500px;
+}
+figcaption {
+    color:black;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+.interes {
+    border:black outset;
+    padding: 1em 0.5em;
+    width: 40%;
+    height: 30px;
+    width:250px;
+    overflow: scroll;
+}
+.ja:hover{
+    margin: 100px;
+    transform: scale(1.5);
+}
+.oprez{
+    height:30px;
+    width:30px;
+}
+.overlay{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transition:opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity:1;
+}
+.popup{
+    height: 100%;
+    padding: 20px;
+    background:#ccffff;
+    border-radius: 5px;
+    width:100%;
+    position:relative;
+}
+.button{
+    color:black;
+    border:3px solid black;
+    border-color: white;
+    border-radius: 25px;
+}
+.zatvori{
+    position:fixed;
+    top:20px;
+    right:30px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.resetka{
+    display:grid;
+    grid-template-columns: auto auto;
+    max-width: 100%;
+}
+.registracija {
+    display:grid;
+    margin:50px;
+    border:red outset;
+    padding: 1em 0.5em;
+    width: 70%;
+}
+.prijava {
+    display:grid;
+    margin:50px;
+    border:black outset;
+    padding: 1em 0.5em;
+    width: 70%;
+}
+
+
